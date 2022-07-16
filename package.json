@@ -1,0 +1,30 @@
+{
+  "name": "strapi-docker",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application and PostgreSQL database along with a Dockerfile and Docker Compose file.",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.2.3",
+    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/plugin-i18n": "4.2.3",
+    "pg": "8.6.0"
+  },
+  "author": {
+    "name": "Guilherme Doval / @dovalization"
+  },
+  "strapi": {
+    "uuid": "5ab0de78-41d2-4edb-b8a4-1dc2b784ba67"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
